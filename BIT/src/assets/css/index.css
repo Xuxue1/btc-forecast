@@ -1,0 +1,693 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    outline: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
+.paddingLeft15 {
+    padding-left: 15px;
+}
+
+.paddingBtm20 {
+    padding-bottom: 20px;
+}
+
+.marginTop30 {
+    margin-top: 30px;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.index-wrapper {
+    height: auto;
+    padding-bottom: 50px;
+    background: url("../img/web-bg.png") 0 0 repeat-y;
+    background-size: 100% auto;
+}
+
+.main-content {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.content-top {
+    line-height: 160px;
+    height: 160px;
+    font-size: 30px;
+    color: #d26d00;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.logo-word {
+    float: left;
+}
+
+.content-fqa {
+    float: right;
+    cursor: pointer;
+}
+
+.content-intro {
+    position: relative;
+    margin-right: -60px;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.intro-word {
+    width: 35%;
+}
+
+.intro-title {
+    font-size: 26px;
+    height: 30px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.intro-step {
+    line-height: 34px;
+    color: #666666;
+    font-size: 17px;
+    margin: 0;
+}
+
+.price-wrapper {
+    width: 61%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    margin-top: -200px;
+    right: 0;
+    background: url("../img/intro-bg.png") center center no-repeat;
+    background-size: 100% 100%;
+    padding: 0 2%;
+    overflow: hidden;
+}
+
+.price-item {
+    float: left;
+    width: 37%;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.price-item-1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.price-item-2 {
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.price-item-3 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.chang {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.chang .el-button {
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 15px;
+}
+
+.chang .el-button .small {
+    font-size: 17px
+}
+
+.chang .el-button.el-button--primary {
+    background: #ff6c00;
+    border-color: #ff6c00;
+}
+
+.chang .el-button.el-button--button {
+    color: #ff6c00;
+    border-color: #ff6c00;
+}
+
+.yuce {
+    text-align: center;
+    color: #ff3737;
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 50px;
+}
+
+.zhang-die {
+    height: 750px;
+    padding: 6% 8% 4%;
+    margin-top: 20px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.52);
+}
+
+.bilv-wrapper {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.bilv-zhang {
+    background: #ff6935;
+    position: relative;
+    float: left;
+    height: 12px;
+    border-radius: 20px 0 0 20px;
+}
+
+.bilv-zhang.all-zhang {
+    border-radius: 20px;
+}
+
+.bilv-zhang-word {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 70px;
+    font-size: 22px;
+    color: #333;
+}
+
+.bilv-die {
+    background: #44e3ff;
+    position: relative;
+    float: right;
+    height: 12px;
+    border-radius: 0 20px 20px 0;
+}
+
+.bilv-die.all-die {
+    border-radius: 20px;
+}
+
+.bilv-die-word {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 70px;
+    font-size: 22px;
+    color: #333;
+    text-align: right;
+}
+
+.bilv {
+    position: absolute;
+    top: -40px;
+    color: #333;
+    font-size: 28px;
+    margin-left: -20px;
+    left: 100%;
+}
+
+.bilv-box {
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.zhang-box {
+    width: 46%;
+    height: 480px;
+    float: left;
+    border-radius: 20px;
+    background: #ff6935;
+    padding: 3%;
+}
+
+.die-box {
+    width: 46%;
+    height: 480px;
+    float: right;
+    border-radius: 20px;
+    background: #44e3ff;
+    padding: 3%;
+}
+
+.boxTitle {
+    font-size: 25px;
+    color: #fff;
+}
+
+.half {
+    height: 180px;
+    border-bottom: 1px solid #fff;
+}
+
+.boxTop {
+    padding-top: 20px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.boxBtm {
+    padding-top: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.boxTop .money span,
+.boxBtm .money span {
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.boxTop .explain,
+.boxBtm .explain {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn-wrapper .yijiezhi {
+    width: 160px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    background: #fff;
+}
+
+.zhang-box .yijiezhi {
+    color: #ffddd4;
+}
+
+.die-box .yijiezhi {
+    color: #d2f2ff;
+}
+
+.btn-wrapper .xiazhu {
+    width: 160px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.zhang-box .xiazhu {
+    color: #ff6935;
+}
+
+.die-box .xiazhu {
+    color: #44e3ff;
+}
+
+.tab-wrapper {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.tab-wrapper .el-tabs__nav-wrap::after {
+    background-color: #ff6c00;
+}
+
+.tab-wrapper .el-tabs__active-bar {
+    background-color: #ff6c00;
+}
+
+.tab-wrapper .el-tabs__item.is-active {
+    border: 1px solid #ff6c00;
+    padding: 0 30px!important;
+    color: #fff;
+    background: #ff6c00;
+    border-radius: 15px 15px 0 0;
+}
+
+.tab-wrapper .el-tabs__item:hover {
+    color: #ff6c00;
+    cursor: pointer;
+}
+
+.tab-wrapper .el-tabs__item.is-active:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab-wrapper .el-tabs__item {
+    color: #999;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    padding: 0 30px;
+}
+
+.tab-wrapper .el-tabs__content {
+    min-height: 700px;
+}
+
+.tab-tips {
+    font-size: 20px;
+    margin-top: 45px;
+    color: #999;
+}
+
+.tab1-wrapper {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.tab2-wrapper {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.tab1-time {
+    float: left;
+    width: 18%;
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab1-money,
+.tab1-zhang-die,
+.tab1-shouyi {
+    float: left;
+    width: 27%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab-link {
+    float: left;
+    width: 40%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab1-kan {
+    float: left;
+    width: 8%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab1-zhu {
+    float: left;
+    width: 16%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab1-shouyiText {
+    float: left;
+    width: 18%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tab-wrapper .el-pager li,
+.tab-wrapper .el-pagination button,
+.tab-wrapper .el-pagination span,
+.tab-wrapper .el-input__inner {
+    font-size: 18px!important;
+}
+
+.tab-wrapper .el-tabs--bottom .el-tabs__item.is-bottom:nth-child(2),
+.tab-wrapper .el-tabs--bottom .el-tabs__item.is-top:nth-child(2),
+.tab-wrapper .el-tabs--top .el-tabs__item.is-bottom:nth-child(2),
+.tab-wrapper .el-tabs--top .el-tabs__item.is-top:nth-child(2) {
+    padding-left: 20px;
+}
+
+.color-zhang {
+    color: #ff6c00;
+}
+
+.color-die {
+    color: #44e3ff;
+}
+
+.paddingLeft25 {
+    padding-left: 19%;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.dialogReset .el-dialog {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.index-wrapper .el-dialog {
+    border-radius: 20px;
+}
+
+.dialogReset .el-dialog__header {
+    text-align: center;
+    color: #000;
+    font-size: 26px;
+}
+
+.dialogReset .el-dialog__title {
+    color: #000;
+    font-size: 26px;
+}
+
+.dialogReset .el-dialog__body {
+    padding: 10px 50px 20px;
+}
+
+.dialogReset .el-dialog__body p {
+    font-size: 16px;
+}
+
+.dialogReset .el-dialog__body .riseMoney {
+    font-size: 14px;
+    color: #ff6935;
+}
+
+.dialogReset .el-dialog__body .fallMoney {
+    font-size: 14px;
+    color: #44e3ff;
+}
+
+.dialogReset .el-dialog__body .riseMoney span {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.dialogReset .el-dialog__body .fallMoney span {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.dialogReset .el-dialog__close {
+    font-size: 25px;
+}
+
+.dialogReset .el-slider__button {
+    width: 22px;
+    height: 22px;
+}
+
+.dialogReset .el-slider__bar,
+.dialogReset .el-slider__runway {
+    height: 3px;
+}
+
+.dialogReset .el-slider__button-wrapper {
+    top: -17px;
+}
+
+.dialogReset .rise .el-slider__runway {
+    background: #ff6935;
+}
+
+.dialogReset .rise .el-slider__bar {
+    background: #ff6935
+}
+
+.dialogReset .rise .el-slider__button {
+    border-color: #ff6935;
+}
+
+.dialogReset .fall .el-slider__runway {
+    background: #44e3ff;
+}
+
+.dialogReset .fall .el-slider__bar {
+    background: #44e3ff
+}
+
+.dialogReset .fall .el-slider__button {
+    border-color: #44e3ff;
+}
+
+.dialogReset .el-dialog__footer {
+    text-align: center;
+    padding: 10px 20px 40px
+}
+
+.dialogReset .el-dialog__footer .riseBtn:disabled {
+    background: #fff;
+    color: #ffddd4;
+    border:1px solid #ffddd4;
+    cursor: default;
+}
+
+.dialogReset .el-dialog__footer .fallBtn:disabled {
+    background: #fff;
+    color: #d2f2ff;
+    border:1px solid #d2f2ff;
+    cursor: default;
+}
+
+.dialogReset .el-dialog__footer .riseBtn{
+    width: 200px;
+    height: 40px;
+    background: #ff6935;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.dialogReset .el-dialog__footer .fallBtn {
+    width: 200px;
+    height: 40px;
+    background: #44e3ff;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+/* dialogFaq 样式 */
+
+.dialogFaq .el-dialog {
+    width: 850px;
+    border-radius: 20px;
+}
+
+.dialogFaq .el-dialog__close {
+    font-size: 30px;
+}
+
+.dialogFaq .el-dialog__header {
+    text-align: center;
+}
+
+.dialogFaq .el-dialog__title {
+    color: #000;
+    font-size: 26px;
+}
+
+.dialogFaq-content {
+    font-size: 14px;
+}
+
+.dialogFaq .el-dialog__body {
+    padding: 10px 30px 30px;
+}
+
+.dialogFaq .shuoP {
+    position: relative;
+    padding-left: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    word-break: break-all;
+    font-size: 14px;
+}
+
+.dialogFaq .shuoP.shuoT {
+    color: #333;
+    font-size: 16px;
+}
+
+.dialogFaq-content .shuoP span {
+    position: absolute;
+    left: 0;
+}
+
+.iKnow {
+    text-align: center;
+}
+
+.iKnow button {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.iKnow button.bgcolor-zhang {
+    background: #ff6935;
+}
+
+.iKnow button.bgcolor-die {
+    background: #ff6935;
+}
