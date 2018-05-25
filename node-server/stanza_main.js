@@ -7,8 +7,8 @@ let Neb = require('./lib/neb');
 let Account = require('./lib/account');
 let Transaction = require('./lib/transaction');
 let neb = new Neb();
-neb.setRequest(new HttpRequest("https://testnet.nebulas.io"));
-//neb.setRequest(new HttpRequest("https://mainnet.nebulas.io"));
+//neb.setRequest(new HttpRequest("https://testnet.nebulas.io"));
+neb.setRequest(new HttpRequest("https://mainnet.nebulas.io"));
 app.use(bodyParser.text());
 
 let chainID = 1;
